@@ -1,0 +1,5276 @@
+[
+    {
+        "student_id": "STU-1000",
+        "name": "Student 1",
+        "status": "Watch",
+        "risk_score": 53,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 87,
+            "forum_posts": 4,
+            "video_watch_pct": 41,
+            "attendance_rate": 64,
+            "library_visits": 4
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 4
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 5
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 2
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 3
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 2
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 2
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 2
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 4
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 4
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 2
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1001",
+        "name": "Student 2",
+        "status": "Safe",
+        "risk_score": 10.0,
+        "raw_features": {
+            "login_freq": 4,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 88,
+            "forum_posts": 2,
+            "video_watch_pct": 99,
+            "attendance_rate": 77,
+            "library_visits": 10
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 3
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 5
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 3
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 3
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 8
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 6
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 5
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1002",
+        "name": "Student 3",
+        "status": "Safe",
+        "risk_score": 36,
+        "raw_features": {
+            "login_freq": 4,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 79,
+            "forum_posts": 5,
+            "video_watch_pct": 83,
+            "attendance_rate": 62,
+            "library_visits": 2
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 11
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 13
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 12
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 12
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 7
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 8
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 12
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 5
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 7
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 10
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 10
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1003",
+        "name": "Student 4",
+        "status": "Watch",
+        "risk_score": 60,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 4,
+            "avg_quiz_score": 80,
+            "forum_posts": 2,
+            "video_watch_pct": 78,
+            "attendance_rate": 96,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 2
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 1
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 3
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 2
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 1
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 1
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 1
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 3
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 1
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "error",
+                "msg": "4 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1004",
+        "name": "Student 5",
+        "status": "Safe",
+        "risk_score": 10.0,
+        "raw_features": {
+            "login_freq": 5,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 81,
+            "forum_posts": 7,
+            "video_watch_pct": 60,
+            "attendance_rate": 91,
+            "library_visits": 14
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 9
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 12
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 9
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 13
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 16
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 8
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 17
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 12
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 7
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 6
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1005",
+        "name": "Student 6",
+        "status": "Safe",
+        "risk_score": 32,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 80,
+            "forum_posts": 2,
+            "video_watch_pct": 97,
+            "attendance_rate": 77,
+            "library_visits": 2
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 2
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 4
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 3
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 4
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 4
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 1
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 3
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 2
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 1
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1006",
+        "name": "Student 7",
+        "status": "Safe",
+        "risk_score": 16,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 69,
+            "forum_posts": 0,
+            "video_watch_pct": 43,
+            "attendance_rate": 82,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": 10.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 8
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 4
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 6
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 3
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 7
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 6
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 6
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 4
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1007",
+        "name": "Student 8",
+        "status": "Watch",
+        "risk_score": 57,
+        "raw_features": {
+            "login_freq": 0,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 99,
+            "forum_posts": 5,
+            "video_watch_pct": 49,
+            "attendance_rate": 65,
+            "library_visits": 1
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 5
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 2
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 3
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 2
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 5
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 5
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 4
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 5
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1008",
+        "name": "Student 9",
+        "status": "Safe",
+        "risk_score": 22,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 99,
+            "forum_posts": 8,
+            "video_watch_pct": 98,
+            "attendance_rate": 62,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 20
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 16
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 13
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 14
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 10
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 11
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 15
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 10
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 7
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 15
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1009",
+        "name": "Student 10",
+        "status": "Safe",
+        "risk_score": 28,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 97,
+            "forum_posts": 0,
+            "video_watch_pct": 52,
+            "attendance_rate": 54,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": 10.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 3
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 2
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 1
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 4
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 3
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 2
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 3
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 2
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 2
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1010",
+        "name": "Student 11",
+        "status": "Watch",
+        "risk_score": 51,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 43,
+            "forum_posts": 10,
+            "video_watch_pct": 93,
+            "attendance_rate": 91,
+            "library_visits": 3
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 12
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 11
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 18
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 10
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 9
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 12
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 12
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 10
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 19
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 12
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 18
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1011",
+        "name": "Student 12",
+        "status": "Watch",
+        "risk_score": 70,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 81,
+            "forum_posts": 8,
+            "video_watch_pct": 11,
+            "attendance_rate": 55,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 6
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 9
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 10
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 4
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 3
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 10
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 8
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1012",
+        "name": "Student 13",
+        "status": "Watch",
+        "risk_score": 70,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 52,
+            "forum_posts": 4,
+            "video_watch_pct": 37,
+            "attendance_rate": 53,
+            "library_visits": 1
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 4
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 9
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 8
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 11
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 5
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 12
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 5
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 6
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 10
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 6
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 5
+            }
+        ],
+        "alerts": [
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1013",
+        "name": "Student 14",
+        "status": "Watch",
+        "risk_score": 73,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 4,
+            "avg_quiz_score": 78,
+            "forum_posts": 0,
+            "video_watch_pct": 89,
+            "attendance_rate": 55,
+            "library_visits": 13
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": 10.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 2
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 1
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 1
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 2
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 1
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 1
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 1
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 2
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 3
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 1
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "4 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1014",
+        "name": "Student 15",
+        "status": "Watch",
+        "risk_score": 61,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 74,
+            "forum_posts": 3,
+            "video_watch_pct": 74,
+            "attendance_rate": 66,
+            "library_visits": 4
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 4
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 4
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 2
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 2
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 4
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 3
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 4
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 4
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 2
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1015",
+        "name": "Student 16",
+        "status": "Watch",
+        "risk_score": 78,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 56,
+            "forum_posts": 1,
+            "video_watch_pct": 23,
+            "attendance_rate": 97,
+            "library_visits": 4
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 1
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 1
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 1
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 1
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 2
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 1
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 1
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 0
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 0
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1016",
+        "name": "Student 17",
+        "status": "Safe",
+        "risk_score": 22,
+        "raw_features": {
+            "login_freq": 5,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 80,
+            "forum_posts": 4,
+            "video_watch_pct": 30,
+            "attendance_rate": 97,
+            "library_visits": 14
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 9
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 5
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 13
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 10
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 5
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 8
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 4
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 7
+            }
+        ],
+        "alerts": [
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1017",
+        "name": "Student 18",
+        "status": "Watch",
+        "risk_score": 66,
+        "raw_features": {
+            "login_freq": 0,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 53,
+            "forum_posts": 10,
+            "video_watch_pct": 41,
+            "attendance_rate": 92,
+            "library_visits": 3
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 11
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 7
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 8
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 5
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 11
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 11
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 11
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 4
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 9
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1018",
+        "name": "Student 19",
+        "status": "Safe",
+        "risk_score": 38,
+        "raw_features": {
+            "login_freq": 5,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 91,
+            "forum_posts": 10,
+            "video_watch_pct": 41,
+            "attendance_rate": 67,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 13
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 14
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 10
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 21
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 12
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 19
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 20
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 17
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 13
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1019",
+        "name": "Student 20",
+        "status": "Safe",
+        "risk_score": 20,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 62,
+            "forum_posts": 10,
+            "video_watch_pct": 75,
+            "attendance_rate": 75,
+            "library_visits": 10
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 6
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 16
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 7
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 16
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 6
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 13
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 8
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 12
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 11
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 9
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1020",
+        "name": "Student 21",
+        "status": "Watch",
+        "risk_score": 51,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 42,
+            "forum_posts": 6,
+            "video_watch_pct": 10,
+            "attendance_rate": 83,
+            "library_visits": 6
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 6
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 10
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 10
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 8
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 4
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 8
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 7
+            }
+        ],
+        "alerts": [
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1021",
+        "name": "Student 22",
+        "status": "Safe",
+        "risk_score": 34,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 82,
+            "forum_posts": 6,
+            "video_watch_pct": 96,
+            "attendance_rate": 97,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 9
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 12
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 7
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 11
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 9
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 8
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 10
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 9
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1022",
+        "name": "Student 23",
+        "status": "High Risk",
+        "risk_score": 92,
+        "raw_features": {
+            "login_freq": 2,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 45,
+            "forum_posts": 4,
+            "video_watch_pct": 75,
+            "attendance_rate": 92,
+            "library_visits": 10
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 3
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 3
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 2
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 1
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 1
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 1
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 1
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 2
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1023",
+        "name": "Student 24",
+        "status": "Safe",
+        "risk_score": 19,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 84,
+            "forum_posts": 6,
+            "video_watch_pct": 73,
+            "attendance_rate": 75,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 4
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 11
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 11
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 5
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 8
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 13
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 4
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 6
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 12
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1024",
+        "name": "Student 25",
+        "status": "Safe",
+        "risk_score": 10.0,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 91,
+            "forum_posts": 7,
+            "video_watch_pct": 95,
+            "attendance_rate": 83,
+            "library_visits": 10
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 15
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 17
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 14
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 18
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 14
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 19
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 17
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 13
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 10
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 15
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 17
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1025",
+        "name": "Student 26",
+        "status": "Watch",
+        "risk_score": 77,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 55,
+            "forum_posts": 4,
+            "video_watch_pct": 66,
+            "attendance_rate": 54,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 6
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 9
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 5
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 10
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 4
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 9
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 6
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1026",
+        "name": "Student 27",
+        "status": "Watch",
+        "risk_score": 60,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 97,
+            "forum_posts": 9,
+            "video_watch_pct": 99,
+            "attendance_rate": 51,
+            "library_visits": 12
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 6
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 10
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 15
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 16
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 17
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 11
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 14
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 12
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 13
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 8
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1027",
+        "name": "Student 28",
+        "status": "Watch",
+        "risk_score": 69,
+        "raw_features": {
+            "login_freq": 0,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 61,
+            "forum_posts": 10,
+            "video_watch_pct": 96,
+            "attendance_rate": 75,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 11
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 11
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 8
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 11
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 9
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 6
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 6
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1028",
+        "name": "Student 29",
+        "status": "Safe",
+        "risk_score": 10.0,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 61,
+            "forum_posts": 6,
+            "video_watch_pct": 45,
+            "attendance_rate": 98,
+            "library_visits": 13
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 17
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 12
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 16
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 7
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 18
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 9
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 7
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 18
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 6
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 9
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 17
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1029",
+        "name": "Student 30",
+        "status": "High Risk",
+        "risk_score": 99.0,
+        "raw_features": {
+            "login_freq": 2,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 48,
+            "forum_posts": 7,
+            "video_watch_pct": 95,
+            "attendance_rate": 57,
+            "library_visits": 6
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 4
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 4
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 2
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 3
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 4
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 2
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 5
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 2
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 4
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1030",
+        "name": "Student 31",
+        "status": "Safe",
+        "risk_score": 33,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 100,
+            "forum_posts": 3,
+            "video_watch_pct": 19,
+            "attendance_rate": 87,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 10
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 11
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 11
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 9
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 9
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 10
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 10
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 4
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1031",
+        "name": "Student 32",
+        "status": "Watch",
+        "risk_score": 54,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 46,
+            "forum_posts": 6,
+            "video_watch_pct": 56,
+            "attendance_rate": 90,
+            "library_visits": 14
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 8
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 11
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 14
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 7
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 12
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 9
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 9
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 8
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 11
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 7
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 12
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 12
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1032",
+        "name": "Student 33",
+        "status": "Safe",
+        "risk_score": 38,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 96,
+            "forum_posts": 7,
+            "video_watch_pct": 41,
+            "attendance_rate": 98,
+            "library_visits": 14
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 8
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 4
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 10
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 5
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 5
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 10
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 6
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 11
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 9
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 6
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 4
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1033",
+        "name": "Student 34",
+        "status": "Safe",
+        "risk_score": 30,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 55,
+            "forum_posts": 6,
+            "video_watch_pct": 72,
+            "attendance_rate": 85,
+            "library_visits": 7
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 11
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 5
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 10
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 7
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 9
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 8
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 9
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1034",
+        "name": "Student 35",
+        "status": "Safe",
+        "risk_score": 17,
+        "raw_features": {
+            "login_freq": 5,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 84,
+            "forum_posts": 7,
+            "video_watch_pct": 44,
+            "attendance_rate": 69,
+            "library_visits": 8
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 7
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 7
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 12
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 15
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 8
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 8
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 11
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 14
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 17
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 12
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 9
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1035",
+        "name": "Student 36",
+        "status": "Watch",
+        "risk_score": 75,
+        "raw_features": {
+            "login_freq": 1,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 58,
+            "forum_posts": 3,
+            "video_watch_pct": 56,
+            "attendance_rate": 61,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 3
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 2
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 1
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 1
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 2
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 4
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 4
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 1
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 2
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 3
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1036",
+        "name": "Student 37",
+        "status": "Watch",
+        "risk_score": 57,
+        "raw_features": {
+            "login_freq": 5,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 43,
+            "forum_posts": 4,
+            "video_watch_pct": 71,
+            "attendance_rate": 57,
+            "library_visits": 2
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 7
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 8
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 4
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 9
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 10
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 5
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 6
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 7
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 8
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1037",
+        "name": "Student 38",
+        "status": "Safe",
+        "risk_score": 24,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 3,
+            "avg_quiz_score": 98,
+            "forum_posts": 7,
+            "video_watch_pct": 48,
+            "attendance_rate": 87,
+            "library_visits": 13
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 13
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 18
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 7
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 16
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 14
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 9
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 7
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 13
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "3 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1038",
+        "name": "Student 39",
+        "status": "Safe",
+        "risk_score": 29,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 42,
+            "forum_posts": 3,
+            "video_watch_pct": 46,
+            "attendance_rate": 95,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 7
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 12
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 10
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 13
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 6
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 6
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 7
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 6
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1039",
+        "name": "Student 40",
+        "status": "Safe",
+        "risk_score": 34,
+        "raw_features": {
+            "login_freq": 0,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 90,
+            "forum_posts": 4,
+            "video_watch_pct": 86,
+            "attendance_rate": 97,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 2
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 4
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 4
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 5
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 4
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 3
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 2
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 3
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 2
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1040",
+        "name": "Student 41",
+        "status": "High Risk",
+        "risk_score": 99.0,
+        "raw_features": {
+            "login_freq": 0,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 92,
+            "forum_posts": 4,
+            "video_watch_pct": 83,
+            "attendance_rate": 52,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 1
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 1
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 1
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 2
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 1
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 2
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 2
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 1
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 1
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 1
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 0
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 1
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            },
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1041",
+        "name": "Student 42",
+        "status": "Safe",
+        "risk_score": 29,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 71,
+            "forum_posts": 4,
+            "video_watch_pct": 94,
+            "attendance_rate": 75,
+            "library_visits": 1
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 6
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 12
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 13
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 13
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 5
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 13
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 9
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 10
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1042",
+        "name": "Student 43",
+        "status": "Watch",
+        "risk_score": 79,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 68,
+            "forum_posts": 0,
+            "video_watch_pct": 36,
+            "attendance_rate": 67,
+            "library_visits": 4
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": 10.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 6
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 3
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 8
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 4
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 3
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 5
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 5
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 3
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 8
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 7
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1043",
+        "name": "Student 44",
+        "status": "Safe",
+        "risk_score": 10.0,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 81,
+            "forum_posts": 2,
+            "video_watch_pct": 73,
+            "attendance_rate": 95,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 10
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 8
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 8
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 5
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 9
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 11
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 5
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 11
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1044",
+        "name": "Student 45",
+        "status": "Safe",
+        "risk_score": 19,
+        "raw_features": {
+            "login_freq": 6,
+            "assignments_delayed": 2,
+            "avg_quiz_score": 99,
+            "forum_posts": 8,
+            "video_watch_pct": 44,
+            "attendance_rate": 50,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 18
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 15
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 16
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 19
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 13
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 13
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 11
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 17
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 12
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 20
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 19
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 20
+            }
+        ],
+        "alerts": [
+            {
+                "type": "success",
+                "msg": "Student is on track with all metrics.",
+                "date": "Today"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1045",
+        "name": "Student 46",
+        "status": "Watch",
+        "risk_score": 60,
+        "raw_features": {
+            "login_freq": 3,
+            "assignments_delayed": 4,
+            "avg_quiz_score": 64,
+            "forum_posts": 3,
+            "video_watch_pct": 62,
+            "attendance_rate": 52,
+            "library_visits": 10
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 6
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 4
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 5
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 6
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 7
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 4
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 4
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 5
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 6
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 6
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "4 assignments are currently past due.",
+                "date": "4 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1046",
+        "name": "Student 47",
+        "status": "Safe",
+        "risk_score": 18,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 0,
+            "avg_quiz_score": 73,
+            "forum_posts": 7,
+            "video_watch_pct": 11,
+            "attendance_rate": 96,
+            "library_visits": 4
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 19
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 20
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 8
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 17
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 10
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 15
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 12
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 8
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 11
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 16
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 14
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 20
+            }
+        ],
+        "alerts": [
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1047",
+        "name": "Student 48",
+        "status": "High Risk",
+        "risk_score": 99.0,
+        "raw_features": {
+            "login_freq": 7,
+            "assignments_delayed": 4,
+            "avg_quiz_score": 42,
+            "forum_posts": 9,
+            "video_watch_pct": 18,
+            "attendance_rate": 65,
+            "library_visits": 9
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": 25.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            },
+            {
+                "feature": "Attendance Rate",
+                "impact": 20.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 7
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 5
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 3
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 7
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 8
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 6
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 7
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 8
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 3
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 8
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 5
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 5
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "4 assignments are currently past due.",
+                "date": "4 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1048",
+        "name": "Student 49",
+        "status": "Safe",
+        "risk_score": 25,
+        "raw_features": {
+            "login_freq": 2,
+            "assignments_delayed": 1,
+            "avg_quiz_score": 73,
+            "forum_posts": 6,
+            "video_watch_pct": 82,
+            "attendance_rate": 93,
+            "library_visits": 5
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": 30.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": -5.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 5
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 8
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 7
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 9
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 7
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 8
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 5
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 9
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 7
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 9
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 11
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 7
+            }
+        ],
+        "alerts": [
+            {
+                "type": "warning",
+                "msg": "LMS login frequency dropped to 0 this week.",
+                "date": "2 days ago"
+            }
+        ]
+    },
+    {
+        "student_id": "STU-1049",
+        "name": "Student 50",
+        "status": "Watch",
+        "risk_score": 58,
+        "raw_features": {
+            "login_freq": 4,
+            "assignments_delayed": 5,
+            "avg_quiz_score": 74,
+            "forum_posts": 2,
+            "video_watch_pct": 19,
+            "attendance_rate": 78,
+            "library_visits": 11
+        },
+        "shap_explanations": [
+            {
+                "feature": "Weekly Logins",
+                "impact": -10.0
+            },
+            {
+                "feature": "Late Assignments",
+                "impact": 25.0
+            },
+            {
+                "feature": "Quiz Average",
+                "impact": -15.0
+            },
+            {
+                "feature": "Forum Posts",
+                "impact": -5.0
+            },
+            {
+                "feature": "Video Watch Time",
+                "impact": 15.0
+            }
+        ],
+        "history": [
+            {
+                "week": "Wk 1",
+                "date": "Aug 01",
+                "activity": 3
+            },
+            {
+                "week": "Wk 2",
+                "date": "Aug 08",
+                "activity": 7
+            },
+            {
+                "week": "Wk 3",
+                "date": "Aug 15",
+                "activity": 5
+            },
+            {
+                "week": "Wk 4",
+                "date": "Aug 22",
+                "activity": 4
+            },
+            {
+                "week": "Wk 5",
+                "date": "Aug 29",
+                "activity": 3
+            },
+            {
+                "week": "Wk 6",
+                "date": "Sep 05",
+                "activity": 7
+            },
+            {
+                "week": "Wk 7",
+                "date": "Sep 12",
+                "activity": 6
+            },
+            {
+                "week": "Wk 8",
+                "date": "Sep 19",
+                "activity": 2
+            },
+            {
+                "week": "Wk 9",
+                "date": "Sep 26",
+                "activity": 4
+            },
+            {
+                "week": "Wk 10",
+                "date": "Oct 03",
+                "activity": 4
+            },
+            {
+                "week": "Wk 11",
+                "date": "Oct 10",
+                "activity": 3
+            },
+            {
+                "week": "Wk 12",
+                "date": "Oct 17",
+                "activity": 5
+            }
+        ],
+        "alerts": [
+            {
+                "type": "error",
+                "msg": "5 assignments are currently past due.",
+                "date": "4 days ago"
+            },
+            {
+                "type": "info",
+                "msg": "Video completion rate fell below 40%.",
+                "date": "1 week ago"
+            }
+        ]
+    }
+]
